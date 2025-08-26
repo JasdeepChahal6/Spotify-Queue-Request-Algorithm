@@ -31,6 +31,7 @@ pip install spotipy
 - Set your Redirect URI to `http://127.0.0.1:8888/callback`.
 - Copy your `CLIENT_ID`, `CLIENT_SECRET`, and `REDIRECT_URI` into `spotify_queue_algorithm.py`.
 
+
 **4. Edit your credentials in `spotify_queue_algorithm.py`:**
 ```python
 CLIENT_ID = 'your_client_id'
@@ -38,6 +39,14 @@ CLIENT_SECRET = 'your_client_secret'
 REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 PLAYLIST_ID = 'your_playlist_id'
 ```
+
+**How to find your Playlist ID:**
+
+1. Open Spotify (web or app) and go to your playlist.
+2. Click the three dots (options) > Share > Copy link to playlist.
+3. The link will look like:
+   `https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M`
+4. The part after `/playlist/` (e.g., `37i9dQZF1DXcBWIGoYBM5M`) is your playlist ID.
 
 ---
 
