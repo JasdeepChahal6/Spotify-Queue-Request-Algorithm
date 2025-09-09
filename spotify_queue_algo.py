@@ -6,7 +6,6 @@ import time
 import random
 
 # Replace these with your credentials
-#Comment this out or put into environment variables for security
 CLIENT_ID = 'ENTER CREDS HERE'
 CLIENT_SECRET = 'ENTER CREDS HERE'
 REDIRECT_URI = 'ENTER CREDS HERE'
@@ -80,7 +79,7 @@ def main_loop():
                 last_song = (title, artist)
         else:
             print("No song currently playing.")
-        time.sleep(5)  # Check every 5 seconds
+        time.sleep(5)
 
 if __name__ == "__main__":
     while True:
